@@ -21,5 +21,6 @@ fun WellnessScreen(
                 wellnessViewModel.remove(task)
             }
         )
+        //
     }
 }
