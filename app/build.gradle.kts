@@ -56,4 +56,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // Jetpack Compose
+    implementation("androidx.compose.ui:ui:1.6.8")
+    implementation("androidx.compose.material:material:1.6.8")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
+// ViewModel para Compose (necesario para usar viewModel())
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6")
 }
